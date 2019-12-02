@@ -2,12 +2,22 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-background {
+  height: 70vmin;
+}
+
+.logo {
+  height: 4vmin;
+}
+
+.App h1 {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  color: #F3AA00;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #292929;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
