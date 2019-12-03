@@ -87,6 +87,16 @@ top: 30%;
 cursor: pointer;
 }
 
+.card-restaurant:active {
+    top:31%;
+    box-shadow:none;
+}
+
+.card-restaurant:hover {
+    background-color: #191919;
+    box-shadow: 0px 4px #0000003D;
+}
+
 @media screen and (max-width:1024px) {
     .card-restaurant {
         width: 63%;
@@ -130,6 +140,13 @@ opacity: 1;
 background-color: transparent;
 cursor: pointer;
 position: absolute;
+}
+
+.add-menu:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: width 0.2s;
 }
 
 @media screen and (max-width:1024px) {

@@ -2,12 +2,11 @@ import React from 'react';
 import './App.css';
 import Places from './Places';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Places/>
-    </div>
+      <div className="App">
+        <Places/>
+      </div>
   );
 }
 
-export default App;

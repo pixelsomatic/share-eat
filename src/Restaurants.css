@@ -1,0 +1,12 @@
+.formulario-background {
+    /* background-color: red; */
+background-color: #292929;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+/* font-size: calc(10px + 2vmin); */
+/* color: white; */
+/* width: 100vw; */
+}
