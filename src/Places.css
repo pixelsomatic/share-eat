@@ -1,0 +1,169 @@
+.App-background {
+height: 70vmin;
+margin-top: -3%;
+}
+
+@media screen and (max-width:450px) {
+    .App-background {
+        height: 55vmin;
+    }
+}
+
+.logo {
+height: 4vmin;
+}
+
+@media screen and (max-width:1024px) {
+    .logo {
+        margin-top: -24%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .logo {
+        margin-top: -70%
+    }
+}
+
+.Places {
+text-align: center;
+}
+
+.Places-header {
+background-color: #292929;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+width: 100vw;
+}
+
+@media screen and (max-width:1024px) {
+    .Places-header {
+        min-height: 110vh;
+        min-width: 110vw;
+    }
+}
+
+h1 {
+/* font-size: 50px; */
+font-family: 'Poppins', sans-serif;
+color: #F3AA00;
+margin-top: 4%;
+}
+
+.Places h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: -2%;
+    margin-right: 16%;
+    }
+
+@media screen and (max-width:1024px) {
+    .Places h6 {
+        margin-right: 57%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .Places h6 {
+    margin-top: -6%;
+    margin-right: 57%;
+    margin-bottom: 17%;
+    }
+}
+
+.card-restaurant {
+width: 28%;
+height: 13%;
+box-shadow: 0px 4px #00000029;
+background-color: #333333;
+border-radius: 8px;
+position: absolute;
+top: 30%;
+cursor: pointer;
+}
+
+.card-restaurant:active {
+    top:31%;
+    box-shadow:none;
+}
+
+.card-restaurant:hover {
+    background-color: #191919;
+    box-shadow: 0px 4px #0000003D;
+}
+
+@media screen and (max-width:1024px) {
+    .card-restaurant {
+        width: 63%;
+        height: 12%;
+        top: 28%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card-restaurant {
+        width: 75%;
+        left: 3%;
+        top: 31%;
+    }
+}
+
+.restaurant-name {
+text-align: initial;
+font-family: 'Poppins', sans-serif;
+margin-left: 5%;
+margin-top: 1%;
+} 
+
+.dishes {
+text-align: initial;
+margin-left: 5%;
+font-family: 'Nunito Sans', sans-serif;
+}
+
+.add-menu {
+top: 13rem;
+left: 66%;
+width: 40px;
+height: 41px;
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border: 1px solid #FFFFFF98;
+opacity: 1;
+background-color: transparent;
+cursor: pointer;
+position: absolute;
+}
+
+.add-menu:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: width 0.2s;
+}
+
+@media screen and (max-width:1024px) {
+    .add-menu {
+        top: 30%;
+        left: 78%;
+        width: 71px;
+        height: 72px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .add-menu {
+        top: 34%;
+        left: 82%;
+        width: 47px;
+        height: 46px;
+    }
+}
+    
