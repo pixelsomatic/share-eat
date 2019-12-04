@@ -48,7 +48,7 @@ width: 100vw;
     }
 }
 
-h1 {
+.Places h1 {
 /* font-size: 50px; */
 font-family: 'Poppins', sans-serif;
 color: #F3AA00;
@@ -119,7 +119,12 @@ text-align: initial;
 font-family: 'Poppins', sans-serif;
 margin-left: 5%;
 margin-top: 1%;
-} 
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+}
 
 .dishes {
 text-align: initial;

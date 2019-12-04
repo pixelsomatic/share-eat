@@ -6,6 +6,12 @@ flex-direction: column;
 align-items: center;
 }
 
-.logo {
+.logo-form {
     margin-top: 25%;
+}
+
+.formulario-background h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #F3AA00;
 }

@@ -21,10 +21,12 @@ export default class Places extends React.Component {
             <h1> Lugares </h1>
             <h6> lugares cadastrados </h6>
             <img src={background} className="App-background" alt="background" />
-            <div className="card-restaurant">
-              <div className="restaurant-name py-2 px-4"> restaurantes </div> 
-              <div className="dishes"> pratos </div>
-            </div>
+                <div className="card-restaurant">
+              <Link to="/detalhes" className="links">
+                  <div className="restaurant-name py-2 px-4"> restaurantes </div> 
+                  <div className="dishes"> pratos </div>
+              </Link>
+                </div>
               <Link to="/restaurantes">
                 <button className="add-menu">
                   <img src={addWhite}  alt="add"/>

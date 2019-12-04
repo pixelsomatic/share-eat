@@ -7,7 +7,7 @@ export default class Restaurantes extends React.Component {
       return (
          <div className="formulario-background">
                <header>
-                  <img src={logo} className="logo" alt="logo" />
+                  <img src={logo} className="logo-form" alt="logo" />
                </header>
                   <h1> Restaurante Selecionado </h1>
          </div>
