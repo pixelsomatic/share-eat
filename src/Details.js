@@ -4,6 +4,7 @@ import './Details.css';
 import logo from './share-eat.svg';
 import background from './background-paint.svg';
 import addYellow from './ic_add_black.svg';
+import {Link} from "react-router-dom";
 
 export default class Details extends React.Component {
    render () {
@@ -17,9 +18,11 @@ export default class Details extends React.Component {
                   <div className="food-name">Lanche</div>
                   <div className="food-details">Descrição</div>
                </div>
-               <button className="add-meal">
-                  <img src={addYellow} alt="add-yellow" id="yellow"/>
-               </button>
+               <Link to="/restaurantes">
+                  <button className="add-meal">
+                     <img src={addYellow} alt="add-yellow" id="yellow"/>
+                  </button>
+               </Link>
          </div>
       );
    }
