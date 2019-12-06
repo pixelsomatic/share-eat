@@ -1,6 +1,7 @@
 {
   "name": "share-eat",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "Share eat Test",
   "private": true,
   "dependencies": {
     "bootstrap-4-react": "0.0.59",

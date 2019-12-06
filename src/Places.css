@@ -85,6 +85,26 @@ border-radius: 8px;
 position: absolute;
 top: 30%;
 cursor: pointer;
+margin-bottom: 5%;
+}
+
+.two {
+    top: 45%!important;
+}
+.btn-two {
+    top: 47%!important;
+}
+.three {
+    top: 60%!important;  
+}
+.btn-three {
+    top: 62%!important;
+}
+.four {
+    top: 75%!important;
+}
+.btn-four {
+    top: 77%!important;
 }
 
 .card-restaurant:active {

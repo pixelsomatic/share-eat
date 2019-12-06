@@ -12,11 +12,14 @@ ReactDOM.render(
    <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/restaurantes" component={Restaurantes} />
-      <Route path="/detalhes" component={Details} />
+      <Route path="/silva-lanches" component={Details} />
    </Switch>
 </BrowserRouter>
 , document.getElementById('root'));
 
+if (module.hot) {
+   module.hot.accept()
+ }
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
