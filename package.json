@@ -1,8 +1,8 @@
 {
   "name": "share-eat",
   "version": "1.0.0",
-  "description": "Share eat Test",
-  "private": true,
+  "description": "Share eat",
+  "main": "index.js",
   "dependencies": {
     "bootstrap-4-react": "0.0.59",
     "formik": "^2.0.6",

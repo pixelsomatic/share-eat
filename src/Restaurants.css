@@ -15,3 +15,40 @@ align-items: center;
     font-family: 'Poppins', sans-serif;
     color: #F3AA00;
 }
+
+.formulario-background h6 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    margin-top: -2%;
+    margin-right: 16%;
+    font-size: large;    
+}
+
+@media screen and (max-width:1024px) {
+    .formulario-background h6 {
+        margin-right: 57%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .formulario-background h6 {
+    margin-top: -6%;
+    margin-right: 57%;
+    margin-bottom: 17%;
+    }
+}
+
+.input-plate input {
+    width: 30vw;
+    height: 3rem;
+    border-radius: 8px;
+    font-size: large;
+}
+
+.input-plate input::placeholder{
+    color: #121212;
+    font-size: large;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 1.5rem;
+    opacity: 50%;
+}

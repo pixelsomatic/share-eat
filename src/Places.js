@@ -14,11 +14,6 @@ export default class Places extends React.Component {
     };
   }  
   
-  // renderRow(testes) {
-  //   return (<li>Num: {testes}</li>)
-  // }
-
-  
   render () {
     // Busca nome de restaurantes via JSON
     const lista = this.state.testes.map((testes) => <p className="show-restaurant" key={testes}>{`${testes.name}`}</p>);
