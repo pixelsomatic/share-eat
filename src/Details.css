@@ -1,0 +1,89 @@
+.App-header h1 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #F3AA00;
+}
+
+.card-details {
+    width: 28%;
+    height: 21%;
+    box-shadow: 0px 4px #00000029;
+    background-color: #333333;
+    border-radius: 8px;
+    position: absolute;
+    top: 30%;
+}
+
+@media screen and (max-width:1024px) {
+    .card-details {
+        width: 63%;
+        height: 12%;
+        top: 28%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .card-details {
+        width: 75%;
+        left: 3%;
+        top: 31%;
+    }
+}
+
+.food-name {
+    text-align: initial;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.food-details {
+    text-align: initial;
+    margin-left: 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.add-meal {
+    top: 13rem;
+    left: 66%;
+    width: 60px;
+    height: 61px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border: none;
+    opacity: 1;
+    background-color: #F3AA00;
+    cursor: pointer;
+    position: absolute;
+    }
+
+    #yellow {
+        width: 21px;
+    }
+
+    .add-meal:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: width 0.2s;
+    }
+    
+    @media screen and (max-width:1024px) {
+        .add-meal {
+            top: 30%;
+            left: 78%;
+            width: 71px;
+            height: 72px;
+        }
+    }
+    
+    @media screen and (max-width:450px) {
+        .add-meal {
+            top: 34%;
+            left: 82%;
+            width: 47px;
+            height: 46px;
+        }
+    }
