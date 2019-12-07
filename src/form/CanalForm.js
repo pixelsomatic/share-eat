@@ -9,7 +9,7 @@ export default class Restaurantes extends React.Component {
    render() {
       return (
          <div className="formulario-background">
-            <Link to="/">
+            <Link to="/page/canal-cafe-puc-rs">
                <img src={arrowBack} className="back-button" alt="back" />
             </Link>
             <header>

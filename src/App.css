@@ -38,3 +38,16 @@
     width: 100%;
   }
 }
+
+.App-header h5 {
+  position: absolute;
+  margin-top: -11%;
+  left: 37%;
+}
+
+@media screen and (max-width:450px){
+  .App-header h5 {
+    margin-top: -46%;
+    left: 8%;
+  }
+}
