@@ -14,7 +14,8 @@
   font-size: 50px;
   font-family: 'Poppins', sans-serif;
   color: #F3AA00;
-}
+  margin-right: 2%;
+} 
 
 .App-header {
   background-color: #292929;
@@ -29,4 +30,11 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+@media screen and (max-width:450px){
+  .App-header h1{
+    font-size: 35px!important;
+    width: 100%;
+  }
 }

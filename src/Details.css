@@ -14,6 +14,13 @@
     top: 30%;
 }
 
+.second {
+    top:53%;
+}
+.third{
+    top: 76%;
+}
+
 @media screen and (max-width:1024px) {
     .card-details {
         width: 63%;
@@ -25,27 +32,41 @@
 
 @media screen and (max-width:450px) {
     .card-details {
-        width: 75%;
+        width: 80%;
         left: 3%;
         top: 31%;
+        height: 19%;
+    }
+    .second{
+        top: 51%;
+    }
+    .third{
+        top: 71%;
     }
 }
 
 .food-name {
     text-align: initial;
     font-family: 'Poppins', sans-serif;
-    margin-left: 5%;
     margin-top: 1%;
 }
 
 .food-details {
-    text-align: initial;
-    margin-left: 5%;
+    text-align: inherit;
     font-family: 'Nunito Sans', sans-serif;
+    margin-top: -4%;
+    font-size: initial;
+    padding-right: 2%;
+}
+
+@media screen and (max-width:450px){
+    .food-details{
+        margin-left: -4%;
+    }
 }
 
 .add-meal {
-    top: 13rem;
+    top: 35rem;
     left: 66%;
     width: 60px;
     height: 61px;
@@ -81,9 +102,12 @@
     
     @media screen and (max-width:450px) {
         .add-meal {
-            top: 34%;
-            left: 82%;
-            width: 47px;
-            height: 46px;
+            top: 87vh;
+            left: 71%;
+            width: 50px;
+            height: 49px;
+            position: fixed;
         }
     }
+
+    

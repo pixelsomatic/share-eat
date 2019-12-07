@@ -85,10 +85,14 @@ position: absolute;
 top: 30%;
 cursor: pointer;
 margin-bottom: 5%;
+left:37%;
 }
 
 .two {
     top: 45%!important;
+}
+.two:active {
+    top: 46%!important;
 }
 .btn-two {
     top: 47%!important;
@@ -96,11 +100,17 @@ margin-bottom: 5%;
 .three {
     top: 60%!important;  
 }
+.three:active {
+    top: 61%!important;  
+}
 .btn-three {
     top: 62%!important;
 }
 .four {
     top: 75%!important;
+}
+.four:active {
+    top: 76%!important;
 }
 .btn-four {
     top: 77%!important;
