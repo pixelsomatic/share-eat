@@ -9,6 +9,11 @@ import Silva from './page/silvaLanches';
 import Palatus from './page/palatusPucRs';
 import Canal from './page/canalCafePuc';
 import zCafe from './page/zCafe';
+import SilvaForm from './form/SilvaForm';
+import zcafeForm from './form/ZcafeForm';
+import CanalForm from './form/CanalForm';
+import PalatusForm from './form/PalatusForm';
+
 
 ReactDOM.render(
 <BrowserRouter>
@@ -19,6 +24,10 @@ ReactDOM.render(
       <Route path="/page/palatus-puc-rs" component={Palatus} />
       <Route path="/page/canal-cafe-puc-rs" component={Canal} />
       <Route path="/page/z-cafe" component={zCafe} />
+      <Route path="/form/silva-lanches" component={SilvaForm} />
+      <Route path="/form/canal-cafe-puc-rs" component={zcafeForm} />
+      <Route path="/form/z-cafe" component={CanalForm} />
+      <Route path="/form/palatus-puc-rs" component={Palatus} />
    </Switch>
 </BrowserRouter>
 , document.getElementById('root'));
