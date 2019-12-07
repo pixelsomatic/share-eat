@@ -19,18 +19,21 @@ export default class Places extends React.Component {
     const lista = this.state.testes.map((testes) => <p className="show-restaurant" key={testes}>{`${testes.name}`}</p>);
     const item_name = this.state.testes[1].menuItems.map((testes) => <ul key={testes}> {`${testes.name}`}</ul>) ;
     
+    // exibe dinamicamente a quantidade de pratos de cada restaurante
     let cardSilva = testes[0].menuItems.length;
     let cardZcafe = testes[1].menuItems.length;
     let cardCanal = testes[2].menuItems.length;
     let cardPalatus = testes[3].menuItems.length;
-    console.log(testes[1].menuItems.length); 
+    
+    // exibe quantidade de lugares cadastrados
+    let manyPlaces = testes.length;
 
   return( 
   <div className="Places">
     <header className="Places-header">
       <img src={logo} className="logo" alt="logo" />
       <h1> Lugares </h1>
-      <h6> lugares cadastrados </h6>
+      <h6> {manyPlaces} lugares cadastrados </h6>
       <img src={background} className="App-background" alt="background" />
           
       <Link to="/page/silva-lanches" className="links">
@@ -39,7 +42,7 @@ export default class Places extends React.Component {
             <div className="dishes"> {cardSilva} pratos </div>
         </div>
       </Link>
-      <Link to="/restaurantes">
+      <Link to="/form/silva-lanches">
         <button className="add-menu">
           <img src={addWhite}  alt="add"/>
         </button>
@@ -50,7 +53,7 @@ export default class Places extends React.Component {
             <div className="dishes"> {cardZcafe} pratos </div>
         </div>
       </Link>
-      <Link to="/restaurantes">
+      <Link to="/form/z-cafe">
         <button className="add-menu btn-two">
           <img src={addWhite}  alt="add"/>
         </button>
@@ -61,7 +64,7 @@ export default class Places extends React.Component {
             <div className="dishes"> {cardCanal} pratos </div>
         </div>
       </Link>
-      <Link to="/restaurantes">
+      <Link to="/form/canal-cafe-puc-rs">
         <button className="add-menu btn-three">
           <img src={addWhite}  alt="add"/>
         </button>
@@ -72,7 +75,7 @@ export default class Places extends React.Component {
             <div className="dishes"> {cardPalatus} pratos </div>
         </div>
       </Link>
-      <Link to="/restaurantes">
+      <Link to="/form/palatus-puc-rs">
         <button className="add-menu btn-four">
           <img src={addWhite}  alt="add"/>
         </button>

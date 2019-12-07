@@ -25,9 +25,9 @@ ReactDOM.render(
       <Route path="/page/canal-cafe-puc-rs" component={Canal} />
       <Route path="/page/z-cafe" component={zCafe} />
       <Route path="/form/silva-lanches" component={SilvaForm} />
-      <Route path="/form/canal-cafe-puc-rs" component={zcafeForm} />
-      <Route path="/form/z-cafe" component={CanalForm} />
-      <Route path="/form/palatus-puc-rs" component={Palatus} />
+      <Route path="/form/z-cafe" component={zcafeForm} />
+      <Route path="/form/canal-cafe-puc-rs" component={CanalForm} />
+      <Route path="/form/palatus-puc-rs" component={PalatusForm} />
    </Switch>
 </BrowserRouter>
 , document.getElementById('root'));

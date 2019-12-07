@@ -9,7 +9,7 @@ export default class Restaurantes extends React.Component {
    render() {
       return (
          <div className="formulario-background">
-            <Link to="/">
+            <Link to="/page/palatus-puc-rs">
                <img src={arrowBack} className="back-button" alt="back" />
             </Link>
             <header>
@@ -25,7 +25,7 @@ export default class Restaurantes extends React.Component {
                <textarea className="description" type="text" placeholder="Insira uma descrição"/>
                <p> *A descrição deve conter até 200 caracteres. </p>
 
-               <Link to="/form/z-cafe">
+               <Link>
                   <button className="yellowButton">
                      <label className="save-form">Salvar</label>
                   </button>
