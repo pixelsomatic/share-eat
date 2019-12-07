@@ -25,7 +25,7 @@ export default class Restaurantes extends React.Component {
                <textarea className="description" type="text" placeholder="Insira uma descrição"/>
                <p> *A descrição deve conter até 200 caracteres. </p>
 
-               <Link to="/form/palatus-puc-rs">
+               <Link to="/form/z-cafe">
                   <button className="yellowButton">
                      <label className="save-form">Salvar</label>
                   </button>
