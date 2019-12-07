@@ -159,6 +159,7 @@ margin-top: 1%;
 text-align: initial;
 margin-left: 5%;
 font-family: 'Nunito Sans', sans-serif;
+font-size: large;
 }
 
 .add-menu {
@@ -202,5 +203,5 @@ position: absolute;
 }
 
 .show-restaurant {
-    margin-bottom: 2%;
+    margin-bottom: -2%;
 }
