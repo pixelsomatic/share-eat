@@ -20,8 +20,6 @@ export default class Details extends React.Component {
        const lista = this.state.testes.map((testes) => <ul key={testes}>{`${testes.name}`}</ul>); 
        const item_name = this.state.testes[1].menuItems.map((testes) => <ul key={testes}> {`${testes.name}`}</ul>) ;
        const item_description = this.state.testes[1].menuItems.map((testes) => <ul key={testes}>{`${testes.description}`}</ul>);
-       console.log(item_description);
-       console.log(lista);
  
        return (
           <div className="App-header">
@@ -41,7 +39,7 @@ export default class Details extends React.Component {
                    <div className="food-name"> {item_name[2]} </div>
                    <div className="food-details">{item_description[2]}</div>
                 </div>
-                <Link to="/restaurantes">
+                <Link to="/form/z-cafe">
                    <button className="add-meal">
                       <img src={addYellow} alt="add-yellow" id="yellow"/>
                    </button>

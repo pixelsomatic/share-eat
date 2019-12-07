@@ -1,8 +1,8 @@
 import React from 'react';
-import './Restaurants.css';
-import logo from './share-eat.svg';
-import arrowBack from './back-button.png';
-import Label from './Labels';
+import '../Restaurants.css';
+import logo from '../share-eat.svg';
+import arrowBack from '../back-button.png';
+import Label from '../Labels';
 import {Link} from "react-router-dom";
 
 export default class Restaurantes extends React.Component {
@@ -15,7 +15,7 @@ export default class Restaurantes extends React.Component {
             <header>
                <img src={logo} className="logo-form" alt="logo" />
             </header>
-         <h1 id="changeForm"> Restaurante </h1>
+            <h1> Canal Café - PUCRS </h1>
            <form className="input-plate">
                <Label text='Nome do prato'/>
                <input name="name" type="text" placeholder="Prato" />
@@ -25,7 +25,7 @@ export default class Restaurantes extends React.Component {
                <textarea className="description" type="text" placeholder="Insira uma descrição"/>
                <p> *A descrição deve conter até 200 caracteres. </p>
 
-               <Link to="/restaurantes">
+               <Link to="/form/canal-cafe-puc-rs">
                   <button className="yellowButton">
                      <label className="save-form">Salvar</label>
                   </button>
