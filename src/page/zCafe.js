@@ -20,8 +20,6 @@ export default class Details extends React.Component {
        const lista = this.state.testes.map((testes) => <ul key={testes}>{`${testes.name}`}</ul>); 
        const item_name = this.state.testes[1].menuItems.map((testes) => <ul key={testes}> {`${testes.name}`}</ul>) ;
        const item_description = this.state.testes[1].menuItems.map((testes) => <ul key={testes}>{`${testes.description}`}</ul>);
-       console.log(item_description);
-       console.log(lista);
  
        return (
           <div className="App-header">
