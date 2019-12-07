@@ -5,14 +5,20 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Restaurantes from './Restaurants';
-import Details from './Details';
+import Silva from './page/silvaLanches';
+import Palatus from './page/palatusPucRs';
+import Canal from './page/canalCafePuc';
+import zCafe from './page/zCafe';
 
 ReactDOM.render(
 <BrowserRouter>
    <Switch>
       <Route path="/" exact={true} component={App} />
       <Route path="/restaurantes" component={Restaurantes} />
-      <Route path="/silva-lanches" component={Details} />
+      <Route path="/page/silva-lanches" component={Silva} />
+      <Route path="/page/palatus-puc-rs" component={Palatus} />
+      <Route path="/page/canal-cafe-puc-rs" component={Canal} />
+      <Route path="/page/z-cafe" component={zCafe} />
    </Switch>
 </BrowserRouter>
 , document.getElementById('root'));
