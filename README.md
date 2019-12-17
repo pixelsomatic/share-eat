@@ -1,6 +1,6 @@
 Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app). <br />
 
-Você pode acessar ver a versão online deste app aqui no [Heroku](http://share-eat.herokuapp.com.br). <br />
+Você pode acessar ver a versão online deste app aqui no [Heroku](http://share-eat.herokuapp.com). <br />
 O que você precisa fazer para executar este app:
 
 ## Requirements (Linux)
